@@ -1,0 +1,268 @@
+@import "fonts.css";
+
+
+/* Примените шрифт к элементам */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+/* Ссылки */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.h1 {
+    font-family: 'h1', sans-serif !important;
+    font-weight: bold;
+}
+
+.i_img {
+    background: url("img/i.png");
+}
+
+.h4 {
+    font-family: 'h4', sans-serif !important;
+}
+
+.p {
+
+    font-size: 18px;
+}
+
+ul {
+    font-size: 18px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list p {
+    font-size: 18px;
+    padding-left: 16%;
+    text-align: left;
+}
+
+.list p:nth-child(odd) {
+    text-align: right;
+    padding-right: 16%;
+}
+
+/*--------AACHIVE-----------*/
+
+.line1 {
+    margin-left: 150px;
+}
+
+.first_achieve1 {
+    width: 35vw;
+    height: auto;
+    border: 3px solid black;
+    -webkit-box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+    -moz-box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+    box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+
+}
+
+.first_achieve1 h2 {
+    margin-top: 20px;
+}
+
+.small_logo {
+    width: 5vw;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15px;
+}
+
+.first_achieve2 {
+    width: 35vw;
+    height: auto;
+    border: 3px solid black;
+    position: relative;
+    left: 43vw;
+    top: -50px;
+    -webkit-box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+    -moz-box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+    box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+}
+
+
+.line2 {
+
+    position: relative;
+    left: 37vw;
+    top: -80px;
+}
+
+.line3 {
+    position: relative;
+    top: -73vh;
+}
+
+.first_achieve3 {
+    position: relative;
+    top: -70vh;
+    left: 4vw;
+    width: 35vw;
+    height: auto;
+    border: 3px solid black;
+    -webkit-box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+    -moz-box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+    box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+
+}
+
+.line4 {
+    position: relative;
+    top: -82vh;
+    left: 32vw;
+}
+
+.first_achieve4 {
+    position: relative;
+    top: -79vh;
+    left: 17vw;
+    width: 35vw;
+    height: auto;
+    border: 3px solid black;
+    -webkit-box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+    -moz-box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+    box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+
+}
+
+.line5 {
+    position: relative;
+    top: -75vh;
+    left: 46%;
+}
+
+
+/*----------SKILS--------------*/
+
+.accordion-header button {
+    font-family: 'h4', sans-serif;
+    font-size: 28px !important;
+    font-weight: bold !important;
+}
+
+.accordion-body-ul {
+    display: flex;
+}
+
+.my_flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.works {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+    -webkit-box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+    -moz-box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+    box-shadow: 15px 16px 0px 0px rgba(34, 60, 80, 0.64);
+}
+
+.bable {
+    width: 25px;
+    height: 25px;
+    background-color: #ffbd20;
+    border-radius: 60%;
+    margin-left: 10px;
+}
+
+.header_btn {
+    width: 20vh;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4px;
+    padding-right: 3vw;
+}
+
+.bable:first-child {
+    background-color: #26cc43;
+}
+
+.bable:last-child {
+    background-color: #fa6150;
+}
+
+.works_content_text {
+    display: flex;
+}
+
+.works_content_text ul {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+code {
+    font-family: 'h4', sans-serif;
+    font-size: 18px !important;
+
+}
+
+
+/*----------PLANS--------------*/
+.sidebar {
+    position: fixed;
+
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    border-right: 3px solid black;
+
+}
+
+.sidebar a{
+    color: black;
+}
+
+.sidebar_link {
+    display: flex;
+
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+
+.sidebar_link img {
+    margin-left: 60px;
+}
+
+.sidebar_link p {
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+.plans_content {
+    margin-left: 25vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 3px solid black;
+    position: relative;
+    top: 10vh;
+    right: 2vw;
+}
+
+.plans_content_text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: '8bit';
+    src: url('fonts/8bit.otf') format('opentype'); /* путь к шрифту и формат файла */
+    /* Вы также можете добавить другие свойства, такие как font-weight или font-style */
+}
+
+@font-face {
+    font-family: 'h1';
+    src: url('fonts/h1.ttf') format('truetype'); /* путь к шрифту и формат файла */
+    /* Вы также можете добавить другие свойства, такие как font-weight или font-style */
+}
+
+@font-face {
+    font-family: 'h4';
+    src: url('fonts/h4.ttf') format('truetype'); /* путь к шрифту и формат файла */
+    /* Вы также можете добавить другие свойства, такие как font-weight или font-style */
+}
+
+@font-face {
+    font-family: 'p';
+    src: url('fonts/p.ttf') format('truetype'); /* путь к шрифту и формат файла */
+    /* Вы также можете добавить другие свойства, такие как font-weight или font-style */
+}
